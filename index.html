@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кейс тапсырмалар</title>
+	
+    <style>
+        body {
+            background: #2d572c url('ornament.png') repeat;
+            background-size: 300px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        h1 {
+            font-size: 80px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 50px;
+            justify-content: center;
+        }
+        .card {
+            background: white;
+            border-radius: 30px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            max-width: 300px;
+            margin: auto;
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            border-radius: 20px;
+        }
+        .card h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background: #1a3e1a;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background: #0f2a0f;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Кейс тапсырмалар</h1>
+		<h2>Біліміңді тексер!</h2>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h2>№1 Кейс</h2>
+            <img src="1.jpg" alt="Кітаптар">
+      
+			<div class="card">
+			 <a href="k1.html" class="button" target="_blank">Орындау →</a>
+  </div>
+
+        </div>
+        <div class="card">
+            <h2>№2 Кейс</h2>
+            <img src="1.jpg" alt="Кітаптар">
+           	<div class="card">
+			 <a href="task1.html" class="button" target="_blank">Орындау →</a>
+        </div>
+		</div>
+        <div class="card">
+            <h2>№3 Кейс</h2>
+            <img src="1.jpg" alt="Кітаптар">
+            <div class="card">
+			 <a href="task1.html" class="button" target="_blank">Орындау →</a>
+        </div>
+        </div>
+        <div class="card">
+            <h2>№4 Кейс</h2>
+            <img src="1.jpg" alt="Кітаптар">
+           <div class="card">
+			 <a href="task1.html" class="button" target="_blank">Орындау →</a>
+        </div>
+        </div>
+        <div class="card">
+            <h2>№5 Кейс</h2>
+            <img src="1.jpg" alt="Кітаптар">
+             <div class="card">
+			 <a href="task1.html" class="button" target="_blank">Орындау →</a>
+        </div>
+        </div>
+        <div class="card">
+            <h2>№6 Кейс</h2>
+            <img src="1.jpg" alt="Кітаптар">
+            <div class="card">
+			 <a href="task1.html" class="button" target="_blank">Орындау →</a>
+        </div>
+        </div>
+		<div class="card">
+            <h2>№7 Кейс</h2>
+            <img src="1.jpg" alt="Кітаптар">
+            <a href="#" class="button">Орындау →</a>
+        </div>
+		<div class="card">
+            <h2>№8 Кейс</h2>
+            <img src="1.jpg" alt="Кітаптар">
+            <a href="#" class="button">Орындау →</a>
+        </div>
+		<div class="card">
+            <h2>№9 Кейс</h2>
+            <img src="1.jpg" alt="Кітаптар">
+            <a href="#" class="button">Орындау →</a>
+        </div>
+    </div>
+
+</body>
+</html>
